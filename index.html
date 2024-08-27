@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- For Scroll Up -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Portfo<span>lio.</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About Me</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, My Name is</div>
+                <div class="text-2">Umar Farooq</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#contact">Hire Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section -->
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Umar And I'm a <span class="typing-2">Front-end Developer</span> </div>
+                    <p>As a frontend developer, I specialize in creating responsive and visually appealing web
+                        applications using a variety of technologies. My skills include HTML, CSS, and Bootstrap for
+                        crafting sleek and user-friendly interfaces, while my expertise in JavaScript and TypeScript
+                        enables me to build dynamic and interactive features. I am proficient in Tailwind CSS, allowing
+                        me to efficiently style components with a modern, utility-first approach. Additionally, I have
+                        experience with Firebase, leveraging its authentication, hosting, and database services to
+                        develop secure and scalable applications. My focus is on delivering high-quality, responsive
+                        designs that offer an excellent user experience across all devices.</p>
+                    <div class="icons">
+                        <!-- GitHub (Black) -->
+                        <a href="https://github.com/umarprogrammer19" target="_blank"><i class="fab fa-github"
+                                style="color: #333;"></i></a>
+                        <!-- LinkedIn (Blue) -->
+                        <a href="https://www.linkedin.com/in/umar-farooq-42a8702b5/" target="_blank"><i
+                                class="fab fa-linkedin-in" style="color: #0077b5;"></i></a>
+                        <!-- Facebook (Blue) -->
+                        <a href="https://www.facebook.com/profile.php?id=100082268683063" target="_blank"><i
+                                class="fab fa-facebook-f" style="color: #3b5998;"></i></a>
+                        <!-- YouTube (Red) -->
+                        <a href="https:www.youtube.com/@umarprogrammer19" target="_blank"><i class="fab fa-youtube"
+                                style="color: #ff0000;"></i></a>
+                    </div>
+                    <a href="#" class="a">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Front-end Dev</div>
+                        <p>I create dynamic and responsive interfaces using modern HTML, CSS, JavaScript and Typescript.
+                            My
+                            focus is on delivering user-friendly designs that look great across all devices, ensuring a
+                            seamless and engaging user experience.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-server"></i>
+                        <div class="text">Back-end Dev</div>
+                        <p> I provide backend services using Firebase, offering real-time hosting,
+                            databases, secure
+                            authentication, and best server management. My solutions are used designed to be scalable
+                            and
+                            reliable, supporting the needs of complex applications.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <div class="text">Ui-Ux Design</div>
+                        <p>I replicate UI/UX designs with coding, transforming visual concepts into fully functional and
+                            best responsive interfaces. My focus is on delivering perfect accuracy, ensuring every
+                            detail with the original design and offers a good user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My Creative Skills & Experiences.</div>
+                    <p>As a passionate frontend developer, I have honed my skills in HTML, CSS, and JavaScript to create
+                        visually stunning and highly functional websites. With an eye for detail and a commitment to
+                        pixel-perfect precision, I ensure that every project I undertake aligns perfectly with the
+                        original design. My expertise in TypeScript has enabled me to write clean, scalable code,
+                        enhancing the robustness of the applications I develop. Leveraging the power of Tailwind CSS, I
+                        build responsive and aesthetically pleasing user interfaces that adapt seamlessly across all
+                        devices, providing a modern and attractive user experience. Through these tools, I transform
+                        creative concepts into dynamic, user-friendly interfaces, bringing ideas to life with precision
+                        and innovation.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Bootstrap</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="line bs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Typescript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line ts"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Firebase</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line fb"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Tailwind</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="line tw"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <!-- Project 1 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/BuyAndSell.png" alt="">
+                        <div class="text">Buy And Sell</div>
+                        <p>Developed a Fully Responsive E-Commerce Website With HTML, CSS Javascript And Firebase.</p>
+                        <a href="https://up-buy-and-sell.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/Code-Home.png" alt="">
+                        <div class="text">Code Home</div>
+                        <p>This is a Best and Fully Responsive clone Of w3 schools Developed With Bootstrap.</p>
+                        <a href="https://upo1-code-home.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/food.png" alt="">
+                        <div class="text">Food Project</div>
+                        <p>Designed a Food Website And Added Some Menu Items In This I Do Full Use Of Positions.</p>
+                        <a href="https://upo1-food-project.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/iclone.png" alt="">
+                        <div class="text">Apple Web</div>
+                        <p>Developed a Fully Responsive Clone/Apple Web Clone With HTML CSS Used Media Queries.</p>
+                        <a href="https://up-iclone-home.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/clock.png" alt="">
+                        <div class="text">Analog Clock</div>
+                        <p>Created a clock showing real time of the system used Javascript functionality Of Date.</p>
+                        <a href="https://up-clock.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/tic-tac-toe.png" alt="">
+                        <div class="text">Tic Tac Toe Game</div>
+                        <p>Programmed a Dual Player Tic Tac Toe Game With Javascript It Also Show Winner At Last.</p>
+                        <a href="https://upo-tic-tac-toe.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/currency-convertor.png" alt="">
+                        <div class="text">Currency Convertor</div>
+                        <p>Developed a real-time Currency Convertor With the of Javascript API Fetch.</p>
+                        <a href="https://up-currency-convertor.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/responsive-crypto.png" alt="">
+                        <div class="text">Responsive Crypto</div>
+                        <p>Make a Normal and Responsive HTML CSS Website in Crypto Theme With Good color scheme.</p>
+                        <a href="https://umarprogrammer19-crypto.netlify.app/" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <!-- Project 9 -->
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/stop-watch.png" alt="">
+                        <div class="text">Stop-Watch</div>
+                        <p>Programmed Stop-Watch WIth Javascript With Good UI Uses a Function Of setInterval.</p>
+                        <a href="https://umarprogrammer19-stopwatch.netlify.app/
+                        " target="_blank">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <!-- Left Section -->
+                <div class="column left">
+                    <div class="text">Get In Touch</div>
+                    <p>Have a project in mind or just want to say hello? I'm always open to new opportunities and
+                        collaborations. Feel free to reach out, and let's create something amazing together!</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Umar Farooq</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Pakistan, Karachi</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">umarofficial0121@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Section -->
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form action="#">
+                        <div class="feilds">
+                            <div class="feild name">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="feild email">
+                                <input type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="feild">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="feild textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe Project ....."></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+
+    <!-- Footer Section -->
+    <footer>
+        <span class="span">Developed By <a href="#">Umar Farooq</a> | <span class="far fa-copyright"></span> 2024 All
+            Right
+            reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
